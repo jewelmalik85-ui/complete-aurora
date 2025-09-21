@@ -1,0 +1,58 @@
+# Aurora Fashion Store
+
+A sophisticated e-commerce website for Aurora fashion brand built with React, TypeScript, and Tailwind CSS.
+
+## Features
+
+- Elegant hero section with call-to-action
+- Interactive product showcase
+- Shopping cart with add/remove/update functionality
+- Smooth animations and hover effects
+- Mobile-responsive design
+- Modern typography with serif fonts
+- Premium UI/UX design
+
+## Getting Started
+
+1. Install dependencies:
+```bash
+npm install
+```
+
+2. Start the development server:
+```bash
+npm run dev
+```
+
+3. Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── Header.tsx
+│   ├── Hero.tsx
+│   ├── PopularProducts.tsx
+│   ├── ProductCard.tsx
+│   └── CartModal.tsx
+├── context/
+│   └── CartContext.tsx
+├── types/
+│   └── index.ts
+├── App.tsx
+├── main.tsx
+└── index.css
+```
+
+## Technologies Used
+
+- React 18
+- TypeScript
+- Tailwind CSS
+- Lucide React (for icons)
+- Vite (build tool)
+
+## License
+
+MIT License
